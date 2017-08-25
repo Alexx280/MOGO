@@ -41,5 +41,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-src/app/app.component.styl
-src/app/menu/
+src/template/
