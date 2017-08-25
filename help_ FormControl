@@ -1,0 +1,12 @@
+Валидаторы для FormControl
+
+name: FormControl = new FormControl('Alice', [Validators.required, ...]);
+
+min
+max
+required
+requiredTrue
+email
+minLength
+maxLength
+pattern
