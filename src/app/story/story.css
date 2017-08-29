@@ -33,13 +33,9 @@
   width: 381px;
   height:251px;
   float:left;
-   transition: all 0.2s linear;
+  transition: all 0.2s linear;
   position: relative;
-  
   margin: 20px;
-  
-  
-  
 }
 #ul li{
   display: inline;
@@ -47,11 +43,7 @@
 .block {
   height:300px;
   padding-left:17%;
-  
- 
 }
-
-
 .photos:hover {
    box-shadow: 2px 2px white, 12px 12px #95e1d3;
   top: -4px;
@@ -62,7 +54,6 @@
 #ul li{
   display: inline;
 }
-
 
 .footer{
   width: 100%;
@@ -82,7 +73,6 @@
 .group h3{
   font:72px Montserrat, sans-serif;
   margin-bottom: 30px;
-  
 }
 .group span{
    font: 14pt Montserrat,sans-serif;
@@ -93,21 +83,13 @@
   border-left:rgba(255,255,255,0.3) 1px solid;
   height: 270px;
 }
- 
-
 /*
- 
- 
- 
- 
 }
   .group span{
    font-size: 14px;
   font-family:Montserrat;
   padding-bottom:20px;
 }
-
-
 */
 
   
