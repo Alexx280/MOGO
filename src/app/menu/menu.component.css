@@ -61,3 +61,7 @@
   top: 30px;
   font-size: 25px;
 }
+.add_new_branch {
+  position: absolute;
+  color: #fff;
+}
