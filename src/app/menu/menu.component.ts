@@ -12,6 +12,6 @@ export class MenuComponent implements OnInit {
 
   ngOnInit() {
   //копки меню
-  this.menuName = [' ABOUT', 'SERVICE', 'WORK', 'BLOG', 'CONTACT'];
+  this.menuName = ['CONTACT','BLOG','WORK','SERVICE',' ABOUT'];
 }
 }

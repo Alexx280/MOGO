@@ -1,33 +1,55 @@
 *
   margin 0
-
-.menu
-  display inline-block
-  width 100px
-  height 20px
-  color white
-  text-align center
-  float right
-  &:hover
-    color yellow
-    border-bottom 1px solid yellow
+.all_menu
+  position absolute
+  right 300px
+  top 30px
+  height 30px
+  width 600px
+  border 1px solid green
+  .menu
+    display inline-block
+    width 100px
+    height 25px
+    color white
+    text-align center
+    float right
+    &:hover
+      cursor pointer
+      color yellow
+      border-bottom 1px solid yellow
+  .cart, .glass
+    float right
+    border 1px solid red
+    width 45px
+    height 25px
+    background-repeat no-repeat
+  .cart
+    background-image url("../../assets/app-menu/cart.png")
+  .glass
+    background-image url("../../assets/app-menu/glass.png")
+.top_menu, .gradient, .fon
+  position absolute
+  top 50px
+  left 0
+  width 100%
+  height 1000px
+  background-repeat no-repeat
 .fon
-  position absolute
-  top 50px
-  left 0
-  width 100%
-  height 1000px
   background-image url("../../assets/app-menu/1.png")
-  background-repeat no-repeat
-
 .gradient
-  position absolute
-  top 50px
-  left 0
-  width 100%
-  height 1000px
   background-image url("../../assets/app-menu/gradient.png")
-  background-repeat no-repeat
   opacity 0.7
+.name_mini
+  position absolute
+  color white
+  font-weight bold
+  left 360px
+  top 30px
+  font-size 25px
+
+
+
+
 
 
