@@ -61,7 +61,6 @@
   top: 30px;
   font-size: 25px;
 }
-.test {
-  background: center;
-  font-size: 25px;
+.main {
+  background-attachment: fixed;
 }
